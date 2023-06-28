@@ -1,4 +1,4 @@
-import { o as onDestroy, b as get_store_value, s as setContext, c as create_ssr_component, a as subscribe, d as set_store_value, f as add_attribute, g as getContext, t as tick, h as createEventDispatcher, v as validate_component, i as each, e as escape } from "../../../chunks/index2.js";
+import { o as onDestroy, f as get_store_value, s as setContext, c as create_ssr_component, a as subscribe, h as set_store_value, d as add_attribute, g as getContext, t as tick, i as createEventDispatcher, v as validate_component, b as each, e as escape } from "../../../chunks/index2.js";
 import { d as derived, w as writable, r as readable } from "../../../chunks/index.js";
 import { N as Nav } from "../../../chunks/nav.js";
 /**
@@ -9629,79 +9629,64 @@ function useTexture(paths, options) {
 }
 const suru_svelte_svelte_type_style_lang = "";
 const css = {
-  code: ".suru_wrapper.svelte-1fj3fnf.svelte-1fj3fnf{height:100%;width:100%}.settings-toggle.svelte-1fj3fnf.svelte-1fj3fnf{display:inline-block;margin-right:40px;cursor:pointer\n  }.btn.svelte-1fj3fnf.svelte-1fj3fnf{padding:4px 8px;border-radius:4px;display:inline-block;border:1px solid #eee;margin-right:4px}.btn.selected.svelte-1fj3fnf.svelte-1fj3fnf{background:#eee\n  }.control-wrapper.svelte-1fj3fnf.svelte-1fj3fnf{float:left;width:50%}.control.svelte-1fj3fnf.svelte-1fj3fnf{display:block;font-size:12px}.control-wrapper.svelte-1fj3fnf .header.svelte-1fj3fnf{text-transform:uppercase;font-size:10px;color:#666666;letter-spacing:1px;margin-top:10px}.label.svelte-1fj3fnf.svelte-1fj3fnf{display:inline-block;width:200px}.fav.svelte-1fj3fnf.svelte-1fj3fnf{padding:0}.fav.svelte-1fj3fnf a.svelte-1fj3fnf{display:inline-block;color:#666666;text-decoration:none;padding:4px 8px;border-left:1px solid #eee}.fav.svelte-1fj3fnf a.svelte-1fj3fnf:hover{background:#eee}.fav.svelte-1fj3fnf a.svelte-1fj3fnf:first-child{border-left:none}",
+  code: ".suru_wrapper.svelte-ek39oa.svelte-ek39oa{height:100%;width:100%}.settings-toggle.svelte-ek39oa.svelte-ek39oa{display:inline-block;margin-right:40px;cursor:pointer\n  }.settings-wrapper.svelte-ek39oa.svelte-ek39oa{overflow:auto}.btn.svelte-ek39oa.svelte-ek39oa{padding:4px 8px;border-radius:4px;display:inline-block;border:1px solid #eee;margin-right:4px}.btn.selected.svelte-ek39oa.svelte-ek39oa{background:#eee\n  }.control-wrapper.svelte-ek39oa.svelte-ek39oa{float:left;width:50%}.control.svelte-ek39oa.svelte-ek39oa{display:block;font-size:12px}.control-wrapper.svelte-ek39oa .header.svelte-ek39oa{text-transform:uppercase;font-size:10px;color:#666666;letter-spacing:1px;margin-top:10px}.label.svelte-ek39oa.svelte-ek39oa{display:inline-block;width:200px}.fav.svelte-ek39oa.svelte-ek39oa{padding:0}.fav.svelte-ek39oa a.svelte-ek39oa{display:inline-block;color:#666666;text-decoration:none;padding:4px 8px;border-left:1px solid #eee}.fav.svelte-ek39oa a.svelte-ek39oa:hover{background:#eee}.fav.svelte-ek39oa a.svelte-ek39oa:first-child{border-left:none}.canvas-wrapper.svelte-ek39oa.svelte-ek39oa{position:relative;height:100%;margin-top:40px}.html-overlay.svelte-ek39oa.svelte-ek39oa{position:absolute;height:100%;width:100%;top:0;left:0;text-align:center}.fake-header.svelte-ek39oa.svelte-ek39oa{width:100%;height:70px;background-image:url('/fake-header.png');background-position:top center;background-repeat:no-repeat;background-size:contain}.page-header.svelte-ek39oa.svelte-ek39oa{width:80%;margin:0 auto;text-transform:uppercase;line-height:40px;border-bottom:1px solid #ccc;text-align:left;letter-spacing:2px;font-size:14px}.dark.svelte-ek39oa .page-header.svelte-ek39oa{color:#999;border-bottom:1px solid #666}h1.svelte-ek39oa.svelte-ek39oa{font-size:2.8em;width:50%;margin:60px auto;text-align:left}.dark.svelte-ek39oa h1.svelte-ek39oa{color:#fff}.search.svelte-ek39oa.svelte-ek39oa{width:50%;margin:0 auto;text-align:left}.search.svelte-ek39oa input.svelte-ek39oa{height:32px;background:#e7e7e7;outline:none;border:none;border-bottom:1px solid #626262;;;width:50%;padding:0 16px;vertical-align:top}.search.svelte-ek39oa .btn.svelte-ek39oa{background:#0C8420;color:#fff;height:33px;padding:0 16px;line-height:34px;border-radius:0;border:none}",
   map: null
 };
 const Suru = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  let camera_fov = 50;
-  let ambient_intensity = 100;
-  let directional_intensity = 100;
-  let anim_speed1 = 5;
-  let x_rot1 = 34;
-  let y_rot1 = 16;
-  let z_rot1 = 5;
-  let x_mov1 = 69;
-  let y_mov1 = 40;
-  let z_mov1 = 30;
-  let scale1 = 34;
-  let anim_speed2 = 10;
-  let x_rot2 = 60;
-  let y_rot2 = 5;
-  let z_rot2 = 5;
-  let x_mov2 = 80;
-  let y_mov2 = 50;
-  let z_mov2 = 53;
-  let scale2 = 45;
-  let favourites = [];
-  let animating;
-  async function anim() {
-    if (animating) {
-      clearInterval(animating);
-    }
-    {
-      animating = setInterval(
-        () => {
-          z_rot1 += anim_speed1 / 200;
-          z_rot2 += anim_speed2 / 200;
-          if (z_rot1 > 100) {
-            z_rot1 = 0;
-          }
-          if (z_rot2 > 100) {
-            z_rot2 = 0;
-          }
-        },
-        100
-      );
-    }
-  }
   const texture1 = useTexture("/paper.png", {
     onError: (error) => {
       console.warn(`An error occured loading the texture: ${error.message}`);
     }
   });
-  let m1 = new MeshStandardMaterial({ map: texture1 });
-  let m2 = new MeshStandardMaterial({ color: "#000000" });
-  let m = m1;
+  let ms = [
+    new MeshStandardMaterial({ map: texture1 }),
+    new MeshStandardMaterial({ color: "#000000" }),
+    new MeshStandardMaterial({ color: "#E95420" })
+  ];
+  let m = ms[0];
   new MeshStandardMaterial({ color: "#ff3300" });
+  let camera_fov = 50;
+  let ambient_intensity = 100;
+  let directional_intensity = 100;
+  let x_rot1 = 34;
+  let y_rot1 = 16;
+  let z_rot1 = 5;
+  let x_mov1 = 69;
+  let y_mov1 = 49;
+  let z_mov1 = 51;
+  let scale1 = 34;
+  let x_rot2 = 60;
+  let y_rot2 = 5;
+  let z_rot2 = 5;
+  let x_mov2 = 80;
+  let y_mov2 = 50;
+  let z_mov2 = 79;
+  let scale2 = 45;
+  let favourites = [
+    [86, 4, 44, 24, 69, 72, 34, 65, 22, 20, 61, 0, 68, 78, 1],
+    [69, 19, 83, 13, 47, 32, 91, 51, 64, 96, 64, 73, 68, 53, 0]
+  ];
+  async function anim() {
+  }
   $$result.css.add(css);
   {
     {
-      console.log("animate status changed");
       anim();
     }
   }
-  return `<div class="suru_wrapper svelte-1fj3fnf"><div><div class="settings-toggle svelte-1fj3fnf">Settings ${`↧`}</div>
-    <div class="${["btn svelte-1fj3fnf", m == m1 ? "selected" : ""].join(" ").trim()}">Material 1</div>
-    <div class="${["btn svelte-1fj3fnf", m == m2 ? "selected" : ""].join(" ").trim()}">Material 2</div>
-    <div class="btn svelte-1fj3fnf">Randomize</div>
-    <div class="btn svelte-1fj3fnf">+</div>
+  return `<div class="suru_wrapper svelte-ek39oa"><div><div class="settings-toggle svelte-ek39oa">Settings ${`↧`}</div>
+    <div class="${["btn svelte-ek39oa", m == ms[0] ? "selected" : ""].join(" ").trim()}">Material 1</div>
+    <div class="${["btn svelte-ek39oa", m == ms[1] ? "selected" : ""].join(" ").trim()}">Material 2</div>
+    <div class="${["btn svelte-ek39oa", m == ms[2] ? "selected" : ""].join(" ").trim()}">.</div>
+    <div class="btn svelte-ek39oa">Randomize</div>
+    <div class="btn svelte-ek39oa">+</div>
         ${each(favourites, (fav, i) => {
-    return `<div class="btn fav svelte-1fj3fnf"><a href="/" class="svelte-1fj3fnf">🍪 ${escape(i + 1)}</a><a href="/" class="svelte-1fj3fnf">⨯</a>
+    return `<div class="btn fav svelte-ek39oa"><a href="/" class="svelte-ek39oa">Fav ${escape(i + 1)}</a><a href="/" class="svelte-ek39oa">⨯</a>
             </div>`;
   })}</div>
     ${``}
 
-    ${validate_component(Canvas, "Canvas").$$render($$result, {}, {}, {
+    <div class="canvas-wrapper svelte-ek39oa">${validate_component(Canvas, "Canvas").$$render($$result, {}, {}, {
     default: () => {
       return `${validate_component(PerspectiveCamera2, "PerspectiveCamera").$$render(
         $$result,
@@ -9765,7 +9750,7 @@ const Suru = create_ssr_component(($$result, $$props, $$bindings, slots) => {
           scale: scale1 / 20,
           position: {
             x: x_mov1 / 2.5 - 20,
-            y: y_mov1 / 10 - 5,
+            y: y_mov1 / 10 - 10,
             z: z_mov1 / 5 - 10
           },
           rotation: {
@@ -9788,7 +9773,7 @@ const Suru = create_ssr_component(($$result, $$props, $$bindings, slots) => {
           scale: scale2 / 20,
           position: {
             x: x_mov2 / 2.5 - 20,
-            y: y_mov2 / 10 - 5,
+            y: y_mov2 / 10 - 10,
             z: z_mov2 / 5 - 10
           },
           rotation: {
@@ -9804,8 +9789,6 @@ const Suru = create_ssr_component(($$result, $$props, $$bindings, slots) => {
         {},
         {}
       )}
-    
-    
 
     
     ${validate_component(Mesh2, "Mesh").$$render(
@@ -9821,12 +9804,13 @@ const Suru = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       )}`;
     }
   })}
+  ${``}</div>
 </div>`;
 });
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `${validate_component(Nav, "Nav").$$render($$result, {}, {}, {})}
 
-<h1>Suru Experiment</h1>
+<h1>Suru Toy</h1>
 
 
 ${validate_component(Suru, "Suru").$$render($$result, {}, {}, {})}`;

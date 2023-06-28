@@ -78,6 +78,7 @@ declare module '$env/static/private' {
 	export const SESSION_MANAGER: string;
 	export const GTK_EXE_PREFIX: string;
 	export const INVOCATION_ID: string;
+	export const PAPERSIZE: string;
 	export const NODE: string;
 	export const npm_package_name: string;
 	export const XDG_MENU_PREFIX: string;
@@ -209,6 +210,7 @@ declare module '$env/dynamic/private' {
 		SESSION_MANAGER: string;
 		GTK_EXE_PREFIX: string;
 		INVOCATION_ID: string;
+		PAPERSIZE: string;
 		NODE: string;
 		npm_package_name: string;
 		XDG_MENU_PREFIX: string;
