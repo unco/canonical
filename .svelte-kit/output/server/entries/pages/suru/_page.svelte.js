@@ -9633,7 +9633,7 @@ const css = {
   map: null
 };
 const Suru = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  const texture1 = useTexture("/paper.png", {
+  const texture1 = useTexture("https://unco.github.io/docs/paper.png", {
     onError: (error) => {
       console.warn(`An error occured loading the texture: ${error.message}`);
     }
