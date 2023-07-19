@@ -35,11 +35,14 @@ declare module '$env/static/private' {
 	export const GIO_MODULE_DIR: string;
 	export const XDG_SESSION_TYPE: string;
 	export const GIT_ASKPASS: string;
+	export const GTK_EXE_PREFIX_VSCODE_SNAP_ORIG: string;
 	export const npm_node_execpath: string;
+	export const GDK_BACKEND_VSCODE_SNAP_ORIG: string;
 	export const SHLVL: string;
 	export const npm_config_noproxy: string;
 	export const HOME: string;
 	export const CHROME_DESKTOP: string;
+	export const LOCPATH_VSCODE_SNAP_ORIG: string;
 	export const TERM_PROGRAM_VERSION: string;
 	export const DESKTOP_SESSION: string;
 	export const GTK_PATH: string;
@@ -48,6 +51,7 @@ declare module '$env/static/private' {
 	export const GIO_LAUNCHED_DESKTOP_FILE: string;
 	export const GNOME_SHELL_SESSION_MODE: string;
 	export const GTK_MODULES: string;
+	export const GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG: string;
 	export const VSCODE_GIT_ASKPASS_MAIN: string;
 	export const LC_MONETARY: string;
 	export const VSCODE_GIT_ASKPASS_NODE: string;
@@ -68,7 +72,9 @@ declare module '$env/static/private' {
 	export const JOURNAL_STREAM: string;
 	export const _: string;
 	export const npm_config_prefix: string;
+	export const XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG: string;
 	export const XDG_SESSION_CLASS: string;
+	export const XDG_DATA_DIRS_VSCODE_SNAP_ORIG: string;
 	export const USERNAME: string;
 	export const TERM: string;
 	export const npm_config_cache: string;
@@ -92,6 +98,7 @@ declare module '$env/static/private' {
 	export const LANG: string;
 	export const XDG_CURRENT_DESKTOP: string;
 	export const LC_TELEPHONE: string;
+	export const GIO_MODULE_DIR_VSCODE_SNAP_ORIG: string;
 	export const XMODIFIERS: string;
 	export const XDG_SESSION_DESKTOP: string;
 	export const XAUTHORITY: string;
@@ -110,6 +117,8 @@ declare module '$env/static/private' {
 	export const QT_ACCESSIBILITY: string;
 	export const GDMSESSION: string;
 	export const LESSCLOSE: string;
+	export const GTK_PATH_VSCODE_SNAP_ORIG: string;
+	export const GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG: string;
 	export const LC_MEASUREMENT: string;
 	export const GJS_DEBUG_OUTPUT: string;
 	export const LC_IDENTIFICATION: string;
@@ -129,6 +138,7 @@ declare module '$env/static/private' {
 	export const NVM_RC_VERSION: string;
 	export const INIT_CWD: string;
 	export const EDITOR: string;
+	export const NODE_ENV: string;
 }
 
 /**
@@ -167,11 +177,14 @@ declare module '$env/dynamic/private' {
 		GIO_MODULE_DIR: string;
 		XDG_SESSION_TYPE: string;
 		GIT_ASKPASS: string;
+		GTK_EXE_PREFIX_VSCODE_SNAP_ORIG: string;
 		npm_node_execpath: string;
+		GDK_BACKEND_VSCODE_SNAP_ORIG: string;
 		SHLVL: string;
 		npm_config_noproxy: string;
 		HOME: string;
 		CHROME_DESKTOP: string;
+		LOCPATH_VSCODE_SNAP_ORIG: string;
 		TERM_PROGRAM_VERSION: string;
 		DESKTOP_SESSION: string;
 		GTK_PATH: string;
@@ -180,6 +193,7 @@ declare module '$env/dynamic/private' {
 		GIO_LAUNCHED_DESKTOP_FILE: string;
 		GNOME_SHELL_SESSION_MODE: string;
 		GTK_MODULES: string;
+		GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG: string;
 		VSCODE_GIT_ASKPASS_MAIN: string;
 		LC_MONETARY: string;
 		VSCODE_GIT_ASKPASS_NODE: string;
@@ -200,7 +214,9 @@ declare module '$env/dynamic/private' {
 		JOURNAL_STREAM: string;
 		_: string;
 		npm_config_prefix: string;
+		XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG: string;
 		XDG_SESSION_CLASS: string;
+		XDG_DATA_DIRS_VSCODE_SNAP_ORIG: string;
 		USERNAME: string;
 		TERM: string;
 		npm_config_cache: string;
@@ -224,6 +240,7 @@ declare module '$env/dynamic/private' {
 		LANG: string;
 		XDG_CURRENT_DESKTOP: string;
 		LC_TELEPHONE: string;
+		GIO_MODULE_DIR_VSCODE_SNAP_ORIG: string;
 		XMODIFIERS: string;
 		XDG_SESSION_DESKTOP: string;
 		XAUTHORITY: string;
@@ -242,6 +259,8 @@ declare module '$env/dynamic/private' {
 		QT_ACCESSIBILITY: string;
 		GDMSESSION: string;
 		LESSCLOSE: string;
+		GTK_PATH_VSCODE_SNAP_ORIG: string;
+		GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG: string;
 		LC_MEASUREMENT: string;
 		GJS_DEBUG_OUTPUT: string;
 		LC_IDENTIFICATION: string;
@@ -261,6 +280,7 @@ declare module '$env/dynamic/private' {
 		NVM_RC_VERSION: string;
 		INIT_CWD: string;
 		EDITOR: string;
+		NODE_ENV: string;
 		[key: `PUBLIC_${string}`]: undefined;
 		[key: string]: string | undefined;
 	}

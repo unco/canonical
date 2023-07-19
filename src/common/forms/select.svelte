@@ -15,3 +15,16 @@
     {/each}
 </select>
 
+<style>
+    select {
+        border: 1px solid var(--fg-2);
+        padding: 8px 12px;
+        border-radius: 0;
+        outline: none;
+        background-color: #fff;
+        font-family: var(--font);
+        font-size: 14px;
+        font-weight: 300;
+
+    }
+</style>
