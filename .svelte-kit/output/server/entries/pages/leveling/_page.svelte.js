@@ -861,7 +861,7 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$unsubscribe_levels = subscribe(levels, (value) => $levels = value);
   $$unsubscribe_trade_cat_levels = subscribe(trade_cat_levels, (value) => $trade_cat_levels = value);
   let selected_stage = false;
-  let visible_categories = ["c0"];
+  let visible_categories = ["c1", "c2", "c3"];
   let team = $teams[0];
   let trades = $all_trades.filter((el) => {
     return el.team == team.key;
