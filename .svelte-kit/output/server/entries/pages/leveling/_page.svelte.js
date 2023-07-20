@@ -844,7 +844,7 @@ const Stars = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 });
 const _page_svelte_svelte_type_style_lang = "";
 const css = {
-  code: ".btn.svelte-1czu7gx.svelte-1czu7gx{border:1px solid var(--fg-2);padding:8px 12px;border-radius:0;outline:none;background-color:#fff;font-family:var(--font);font-size:14px;font-weight:300;text-decoration:none;color:#000;cursor:pointer;white-space:nowrap}.btn.svelte-1czu7gx.svelte-1czu7gx:hover{background-color:#fff}svg.svelte-1czu7gx text.svelte-1czu7gx{font-weight:bold;fill:black;font-size:19px;text-anchor:middle;letter-spacing:-1px}svg.svelte-1czu7gx tspan.svelte-1czu7gx{font-weight:300}svg.svelte-1czu7gx line.svelte-1czu7gx{stroke:#333;stroke-width:1}svg.svelte-1czu7gx rect.svelte-1czu7gx{fill:#FFFFFF;stroke:#CCCCCC;width:239px;height:47px}svg.svelte-1czu7gx rect.bg.svelte-1czu7gx{fill:#F7F7F7;width:900px;height:900px}svg.svelte-1czu7gx rect.expert.svelte-1czu7gx{height:207px}.mask.svelte-1czu7gx.svelte-1czu7gx{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.6);z-index:1999;text-align:center;padding-top:20vh}.modal.svelte-1czu7gx.svelte-1czu7gx{width:90%;max-width:640px;max-height:60vh;overflow:auto;background-color:#fff;position:relative;margin-left:auto;margin-right:auto;padding:16px 32px 32px 32px;text-align:left;box-shadow:0 4px 16px rgba(0,0,0,0.6)}.modal.svelte-1czu7gx h1.svelte-1czu7gx{position:relative}.modal.svelte-1czu7gx h1 span.svelte-1czu7gx{position:absolute;top:-40px;right:0;cursor:pointer}hr.svelte-1czu7gx.svelte-1czu7gx{border:none;background:none;border-top:1px solid #eee;height:0}.settings.svelte-1czu7gx.svelte-1czu7gx{display:flex;flex-direction:row;margin-bottom:40px}.settings.svelte-1czu7gx>.svelte-1czu7gx{margin:20px 40px 20px 0}.label.svelte-1czu7gx.svelte-1czu7gx{display:block;font-weight:300}.settings.svelte-1czu7gx label.svelte-1czu7gx{padding-top:6px;padding-right:6px;display:inline-block}.table-wrapper.svelte-1czu7gx.svelte-1czu7gx{width:100%;overflow:auto;max-height:90vh;margin-bottom:60px;padding-bottom:40px;scrollbar-width:thin;scrollbar-color:#fff #999}.table-wrapper.svelte-1czu7gx.svelte-1czu7gx::-webkit-scrollbar{width:12px}.table-wrapper.svelte-1czu7gx.svelte-1czu7gx::-webkit-scrollbar-track{background:#fff}.table-wrapper.svelte-1czu7gx.svelte-1czu7gx::-webkit-scrollbar-thumb{background-color:#999;border-radius:20px;border:3px solid #fff}thead.svelte-1czu7gx.svelte-1czu7gx{position:sticky;top:0;background:#fff;z-index:100}th.svelte-1czu7gx.svelte-1czu7gx{min-width:200px;font-weight:300}.th-0.svelte-1czu7gx.svelte-1czu7gx{background-color:rgba(0,0,0, 3%)}.th-1.svelte-1czu7gx.svelte-1czu7gx{background-color:rgba(0,0,0, 6%)}.th-2.svelte-1czu7gx.svelte-1czu7gx{background-color:rgba(0,0,0, 9%)}.th-3.svelte-1czu7gx.svelte-1czu7gx{background-color:rgba(0,0,0, 12%)}td.svelte-1czu7gx.svelte-1czu7gx{text-align:center;border-top:1px solid #eee;padding:8px 0}th.svelte-1czu7gx.svelte-1czu7gx:first-child,td.svelte-1czu7gx.svelte-1czu7gx:first-child{position:sticky;left:0;background:#fff;z-index:99;text-align:left}th.svelte-1czu7gx.svelte-1czu7gx:first-child:after,td.svelte-1czu7gx.svelte-1czu7gx:first-child:after{content:'';background:linear-gradient(0.25turn, rgba(0,0,0,10%), rgba(0,0,0,0%));position:absolute;top:0;right:-10px;width:10px;height:100%}td.svelte-1czu7gx.svelte-1czu7gx:first-child{color:#007eff;text-decoration:underline;white-space:nowrap;padding-right:8px}td.stage.svelte-1czu7gx.svelte-1czu7gx{cursor:pointer}.selected-stage.svelte-1czu7gx.svelte-1czu7gx{margin:0 64px 120px 64px}.selected-stage.svelte-1czu7gx p.svelte-1czu7gx{max-width:640px}.tabs.svelte-1czu7gx.svelte-1czu7gx{list-style:none;display:block;padding:0;border-bottom:1px solid #eee}.tabs.svelte-1czu7gx li.svelte-1czu7gx{display:inline-block;padding:12px 16px;border-bottom:3px solid transparent;cursor:pointer}.tabs.svelte-1czu7gx li.selected.svelte-1czu7gx{background-color:rgba(0,0,0,8%);border-bottom-color:#000}h2.svelte-1czu7gx.svelte-1czu7gx{font-weight:100;font-size:32px}h3.svelte-1czu7gx.svelte-1czu7gx{font-weight:100;font-size:28px}.comparison.svelte-1czu7gx.svelte-1czu7gx{display:flex;flex-direction:row;text-align:center}.comparison.svelte-1czu7gx>.svelte-1czu7gx:nth-child(1),.comparison.svelte-1czu7gx>.svelte-1czu7gx:nth-child(3){flex:1;text-align:left;vertical-align:top}.comparison.svelte-1czu7gx>.svelte-1czu7gx:nth-child(2){font-size:2em;line-height:0em;margin-bottom:1em;vertical-align:top;width:80px;color:#007eff}",
+  code: ".btn.svelte-xhu84y.svelte-xhu84y{border:1px solid var(--fg-2);padding:8px 12px;border-radius:0;outline:none;background-color:#fff;font-family:var(--font);font-size:14px;font-weight:300;text-decoration:none;color:#000;cursor:pointer;white-space:nowrap}.btn.svelte-xhu84y.svelte-xhu84y:hover{background-color:#fff}svg.svelte-xhu84y text.svelte-xhu84y{font-weight:bold;fill:black;font-size:19px;text-anchor:middle;letter-spacing:-1px}svg.svelte-xhu84y tspan.svelte-xhu84y{font-weight:300}svg.svelte-xhu84y line.svelte-xhu84y{stroke:#333;stroke-width:1}svg.svelte-xhu84y rect.svelte-xhu84y{fill:#FFFFFF;stroke:#CCCCCC;width:239px;height:47px}svg.svelte-xhu84y rect.bg.svelte-xhu84y{fill:#F7F7F7;width:900px;height:900px}svg.svelte-xhu84y rect.expert.svelte-xhu84y{height:207px}.mask.svelte-xhu84y.svelte-xhu84y{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.6);z-index:1999;text-align:center;padding-top:10vh}.modal.svelte-xhu84y.svelte-xhu84y{width:90%;max-width:640px;max-height:80vh;overflow:auto;background-color:#fff;position:relative;margin-left:auto;margin-right:auto;padding:16px 32px 32px 32px;text-align:left;box-shadow:0 4px 16px rgba(0,0,0,0.6)}.modal.svelte-xhu84y h1.svelte-xhu84y{position:relative}.modal.svelte-xhu84y h1 span.svelte-xhu84y{position:absolute;top:-40px;right:0;cursor:pointer}hr.svelte-xhu84y.svelte-xhu84y{border:none;background:none;border-top:1px solid #eee;height:0}.settings.svelte-xhu84y.svelte-xhu84y{display:flex;flex-direction:row;margin-bottom:40px}.settings.svelte-xhu84y>.svelte-xhu84y{margin:20px 40px 20px 0}.label.svelte-xhu84y.svelte-xhu84y{display:block;font-weight:300}.settings.svelte-xhu84y label.svelte-xhu84y{padding-top:6px;padding-right:6px;display:inline-block}.table-wrapper.svelte-xhu84y.svelte-xhu84y{width:100%;overflow:auto;max-height:90vh;margin-bottom:60px;padding-bottom:40px;scrollbar-width:thin;scrollbar-color:#fff #999}.table-wrapper.svelte-xhu84y.svelte-xhu84y::-webkit-scrollbar{width:12px}.table-wrapper.svelte-xhu84y.svelte-xhu84y::-webkit-scrollbar-track{background:#fff}.table-wrapper.svelte-xhu84y.svelte-xhu84y::-webkit-scrollbar-thumb{background-color:#999;border-radius:20px;border:3px solid #fff}thead.svelte-xhu84y.svelte-xhu84y{position:sticky;top:0;background:#fff;z-index:100}th.svelte-xhu84y.svelte-xhu84y{min-width:200px;font-weight:300}.th-0.svelte-xhu84y.svelte-xhu84y{background-color:rgba(0,0,0, 3%)}.th-1.svelte-xhu84y.svelte-xhu84y{background-color:rgba(0,0,0, 6%)}.th-2.svelte-xhu84y.svelte-xhu84y{background-color:rgba(0,0,0, 9%)}.th-3.svelte-xhu84y.svelte-xhu84y{background-color:rgba(0,0,0, 12%)}td.svelte-xhu84y.svelte-xhu84y{text-align:center;border-top:1px solid #eee;padding:8px 0}th.svelte-xhu84y.svelte-xhu84y:first-child,td.svelte-xhu84y.svelte-xhu84y:first-child{position:sticky;left:0;background:#fff;z-index:99;text-align:left}th.svelte-xhu84y.svelte-xhu84y:first-child:after,td.svelte-xhu84y.svelte-xhu84y:first-child:after{content:'';background:linear-gradient(0.25turn, rgba(0,0,0,10%), rgba(0,0,0,0%));position:absolute;top:0;right:-10px;width:10px;height:100%}td.svelte-xhu84y.svelte-xhu84y:first-child{color:#007eff;text-decoration:underline;white-space:nowrap;padding-right:8px}td.stage.svelte-xhu84y.svelte-xhu84y{cursor:pointer}.selected-stage.svelte-xhu84y.svelte-xhu84y{margin:0 64px 120px 64px}.selected-stage.svelte-xhu84y p.svelte-xhu84y{max-width:640px}.tabs.svelte-xhu84y.svelte-xhu84y{list-style:none;display:block;padding:0;border-bottom:1px solid #eee}.tabs.svelte-xhu84y li.svelte-xhu84y{display:inline-block;padding:12px 16px;border-bottom:3px solid transparent;cursor:pointer}.tabs.svelte-xhu84y li.selected.svelte-xhu84y{background-color:rgba(0,0,0,8%);border-bottom-color:#000}h2.svelte-xhu84y.svelte-xhu84y{font-weight:100;font-size:32px}h3.svelte-xhu84y.svelte-xhu84y{font-weight:100;font-size:28px}.comparison.svelte-xhu84y.svelte-xhu84y{display:flex;flex-direction:row;text-align:center}.comparison.svelte-xhu84y>.svelte-xhu84y:nth-child(1),.comparison.svelte-xhu84y>.svelte-xhu84y:nth-child(3){flex:1;text-align:left;vertical-align:top}.comparison.svelte-xhu84y>.svelte-xhu84y:nth-child(2){font-size:2em;line-height:0em;margin-bottom:1em;vertical-align:top;width:80px;color:#007eff}",
   map: null
 };
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -882,19 +882,6 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
           selected_stage = false;
           trade = trades[0];
         }
-        if (window) {
-          let hash = window.location.hash;
-          if (hash) {
-            let h = hash.substring(1);
-            if (h) {
-              let hash_arr = h.split("/");
-              if (hash_arr[1] && hash_arr[1] !== trade.key) {
-                let new_hash = "#" + team.key + "/" + trade.key;
-                window.location.hash = new_hash;
-              }
-            }
-          }
-        }
       }
     }
     {
@@ -908,10 +895,10 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     }
     $$rendered = `
 
-<h1>Design Leveling Framework </h1>
+<h1>Design Levelling Framework </h1>
 
-<div class="settings svelte-1czu7gx">
-    <div class="svelte-1czu7gx">${validate_component(Select, "Select").$$render(
+<div class="settings svelte-xhu84y">
+    <div class="svelte-xhu84y">${validate_component(Select, "Select").$$render(
       $$result,
       {
         options: trades,
@@ -926,28 +913,28 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       },
       {}
     )}</div>
-    <div class="svelte-1czu7gx"><span class="label svelte-1czu7gx">Visible Columns</span>
+    <div class="svelte-xhu84y"><span class="label svelte-xhu84y">Visible Columns</span>
         ${each($categories, (cat) => {
-      return `<label class="svelte-1czu7gx"><input type="checkbox"${add_attribute("value", cat.key, 0)}${~visible_categories.indexOf(cat.key) ? add_attribute("checked", true, 1) : ""}> ${escape(cat.value)} </label>`;
+      return `<label class="svelte-xhu84y"><input type="checkbox"${add_attribute("value", cat.key, 0)}${~visible_categories.indexOf(cat.key) ? add_attribute("checked", true, 1) : ""}> ${escape(cat.value)} </label>`;
     })}</div>
-    <div class="svelte-1czu7gx"><span class="label svelte-1czu7gx"> </span><a href="/" class="btn svelte-1czu7gx">View Flow</a></div>
-    <div class="svelte-1czu7gx"><span class="label svelte-1czu7gx"> </span><a href="/" class="btn svelte-1czu7gx">View Levels</a></div></div>
+    <div class="svelte-xhu84y"><span class="label svelte-xhu84y"> </span><a href="/" class="btn svelte-xhu84y">View Flow</a></div>
+    <div class="svelte-xhu84y"><span class="label svelte-xhu84y"> </span><a href="/" class="btn svelte-xhu84y">View Levels</a></div></div>
 
-<div class="table-wrapper svelte-1czu7gx"><table><thead class="svelte-1czu7gx"><tr><th class="svelte-1czu7gx"></th>
+<div class="table-wrapper svelte-xhu84y"><table><thead class="svelte-xhu84y"><tr><th class="svelte-xhu84y"></th>
                 ${each($categories, (cat, i) => {
-      return `${visible_categories.indexOf(cat.key) >= 0 ? `<th class="${"th-" + escape(i, true) + " svelte-1czu7gx"}"${add_attribute("colspan", cat.children.length, 0)}><b class="svelte-1czu7gx">${escape(cat.value)}</b></th>` : ``}`;
+      return `${visible_categories.indexOf(cat.key) >= 0 ? `<th class="${"th-" + escape(i, true) + " svelte-xhu84y"}"${add_attribute("colspan", cat.children.length, 0)}><b class="svelte-xhu84y">${escape(cat.value)}</b></th>` : ``}`;
     })}</tr>
-            <tr><th class="svelte-1czu7gx"><b>Path Stages</b></th>
+            <tr><th class="svelte-xhu84y"><b>Path Stages</b></th>
                 ${each($categories, (cat, i) => {
       return `${visible_categories.indexOf(cat.key) >= 0 ? `${each(cat.children, (ch) => {
-        return `<th class="${"th-" + escape(i, true) + " svelte-1czu7gx"}">${escape(ch.value)}</th>`;
+        return `<th class="${"th-" + escape(i, true) + " svelte-xhu84y"}">${escape(ch.value)}</th>`;
       })}` : ``}`;
     })}</tr></thead>
         <tbody>${career_path && career_path.stages ? `${each(career_path.stages, (stage) => {
-      return `${!selected_stage || selected_stage == stage ? `<tr><td class="stage svelte-1czu7gx"${add_attribute("title", stage.can_value, 0)}>${escape(stage.value)}</td>
+      return `${!selected_stage || selected_stage == stage ? `<tr><td class="stage svelte-xhu84y"${add_attribute("title", stage.can_value, 0)}>${escape(stage.value)}</td>
                             ${each($categories, (cat) => {
         return `${visible_categories.indexOf(cat.key) >= 0 ? `${each(cat.children, (ch) => {
-          return `<td class="svelte-1czu7gx">${stage.cat_levels[ch.key] && stage.cat_levels[ch.key].level && stage.cat_levels[ch.key].display == "stars" ? `${validate_component(Stars, "Stars").$$render(
+          return `<td class="svelte-xhu84y">${stage.cat_levels[ch.key] && stage.cat_levels[ch.key].level && stage.cat_levels[ch.key].display == "stars" ? `${validate_component(Stars, "Stars").$$render(
             $$result,
             {
               levels: $levels,
@@ -962,16 +949,16 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
                         </tr>` : ``}`;
     })}` : ``}</tbody></table></div>
 
-${selected_stage ? `<div class="selected-stage svelte-1czu7gx"><h2 class="svelte-1czu7gx">${escape(selected_stage.value)}</h2>
-        <ul class="tabs svelte-1czu7gx"><li class="${["svelte-1czu7gx", "selected"].join(" ").trim()}">Role expectations</li>
-            ${selected_stage.key !== "cp_12" ? `<li class="${["svelte-1czu7gx", ""].join(" ").trim()}">Leveling Up</li>
-                <li class="${["svelte-1czu7gx", ""].join(" ").trim()}">Job Description</li>
-                <li class="${["svelte-1czu7gx", ""].join(" ").trim()}">Interviewing</li>` : ``}</ul>
-        ${`${selected_stage.intro ? `<h3 class="svelte-1czu7gx">Introduction</h3>
-                <p class="svelte-1czu7gx">${escape(selected_stage.intro)}</p>` : ``}
+${selected_stage ? `<div class="selected-stage svelte-xhu84y"><h2 class="svelte-xhu84y">${escape(selected_stage.value)}</h2>
+        <ul class="tabs svelte-xhu84y"><li class="${["svelte-xhu84y", "selected"].join(" ").trim()}">Role expectations</li>
+            ${selected_stage.key !== "cp_12" ? `<li class="${["svelte-xhu84y", ""].join(" ").trim()}">Levelling Up</li>
+                <li class="${["svelte-xhu84y", ""].join(" ").trim()}">Job Description</li>
+                <li class="${["svelte-xhu84y", ""].join(" ").trim()}">Interviewing</li>` : ``}</ul>
+        ${`${selected_stage.intro ? `<h3 class="svelte-xhu84y">Introduction</h3>
+                <p class="svelte-xhu84y">${escape(selected_stage.intro)}</p>` : ``}
             ${each($categories, (cat) => {
-      return `${visible_categories.indexOf(cat.key) >= 0 ? `<hr class="svelte-1czu7gx">
-                    <h3 class="svelte-1czu7gx">${escape(cat.value)}</h3>
+      return `${visible_categories.indexOf(cat.key) >= 0 ? `<hr class="svelte-xhu84y">
+                    <h3 class="svelte-xhu84y">${escape(cat.value)}</h3>
                     ${each(cat.children, (ch) => {
         return `<h4>${escape(ch.value)}</h4>
                         ${selected_stage.cat_levels[ch.key].level && selected_stage.cat_levels[ch.key].display == "stars" ? `<div style="width:180px">${validate_component(Stars, "Stars").$$render(
@@ -984,13 +971,13 @@ ${selected_stage ? `<div class="selected-stage svelte-1czu7gx"><h2 class="svelte
           {}
         )}</div>
 
-                            ${$trade_cat_levels[trade.key] && $trade_cat_levels[trade.key][ch.key] && $trade_cat_levels[trade.key][ch.key][selected_stage.cat_levels[ch.key].level] ? `<p class="svelte-1czu7gx">${escape($trade_cat_levels[trade.key][ch.key][selected_stage.cat_levels[ch.key].level])}</p>` : ``}` : `${selected_stage.cat_levels[ch.key].level && selected_stage.cat_levels[ch.key].display == "short" ? `${escape($levels[selected_stage.cat_levels[ch.key].level].short)}` : `<!-- HTML_TAG_START -->${selected_stage.cat_levels[ch.key].value}<!-- HTML_TAG_END -->`}`}`;
+                            ${$trade_cat_levels[trade.key] && $trade_cat_levels[trade.key][ch.key] && $trade_cat_levels[trade.key][ch.key][selected_stage.cat_levels[ch.key].level] ? `<p class="svelte-xhu84y">${escape($trade_cat_levels[trade.key][ch.key][selected_stage.cat_levels[ch.key].level])}</p>` : ``}` : `${selected_stage.cat_levels[ch.key].level && selected_stage.cat_levels[ch.key].display == "short" ? `${escape($levels[selected_stage.cat_levels[ch.key].level].short)}` : `<!-- HTML_TAG_START -->${selected_stage.cat_levels[ch.key].value}<!-- HTML_TAG_END -->`}`}`;
       })}` : ``}`;
     })}`}
         ${``}
         ${``}
         ${``}</div>` : ``}
-<hr class="svelte-1czu7gx">
+<hr class="svelte-xhu84y">
 
 
 ${``}

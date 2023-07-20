@@ -1,11 +1,12 @@
 <script>
+    import { browser } from '$app/environment'
     import { teams, all_trades, trade_cat_levels, levels, categories, career_paths } from './career_paths.js';
     import { onMount } from "svelte";
     import Select from "../../common/forms/select.svelte";
     import Stars from "../../common/forms/stars.svelte";
 
 /*
-Complete leveling framework for canonicaldesign contained within one file
+Complete levelling framework for canonicaldesign contained within one file
 */
 let flow_modal = false;
 let level_modal = false;
@@ -26,7 +27,7 @@ $: {
         selected_stage = false;
         trade = trades[0];
     }
-    if(window) {
+    if(browser) {
         let hash = window.location.hash;
         if(hash) {
             let h = hash.substring(1);
@@ -72,7 +73,9 @@ function click_stage(stage){
         selected_stage = false;
     } else {selected_levelup
         let new_hash = '#' + team.key + '/' + trade.key + '/' + stage.key;
-        window.location.hash = new_hash;
+        if(browser) {
+            window.location.hash = new_hash;
+        }
     }
 }
 
@@ -98,7 +101,7 @@ function check_hash() {
                     }
 
                     if(typeof hash_arr[3] !== 'undefined'){
-                        stage_tab = ["expectations", "leveling", "job", "interview"][parseInt(hash_arr[3])];
+                        stage_tab = ["expectations", "levelling", "job", "interview"][parseInt(hash_arr[3])];
                     }
                 } else {
                     selected_stage = false;
@@ -110,14 +113,16 @@ function check_hash() {
 
 
 onMount( () => {
-    check_hash();
+    if(browser) {
+        check_hash();
+    }
 });
 
 </script>
 
 <svelte:window on:hashchange={check_hash} />
 
-<h1>Design Leveling Framework </h1>
+<h1>Design Levelling Framework </h1>
 
 <div class="settings">
     <!--
@@ -191,7 +196,7 @@ onMount( () => {
         <ul class="tabs">
             <li class:selected={stage_tab=='expectations'} on:click="{ () => stage_tab = 'expectations'}">Role expectations</li>
             {#if selected_stage.key !== "cp_12"}
-                <li class:selected={stage_tab=='leveling'} on:click="{ () => stage_tab = 'leveling'}">Leveling Up</li>
+                <li class:selected={stage_tab=='levelling'} on:click="{ () => stage_tab = 'levelling'}">Levelling Up</li>
                 <li class:selected={stage_tab=='job'} on:click="{ () => stage_tab = 'job'}">Job Description</li>
                 <li class:selected={stage_tab=='interview'} on:click="{ () => stage_tab = 'interview'}">Interviewing</li>
             {/if}
@@ -223,13 +228,13 @@ onMount( () => {
             {/each}
             
         {/if}
-        {#if stage_tab == 'leveling'}
-            <h3>Leveling up</h3>
+        {#if stage_tab == 'levelling'}
+            <h3>Levelling up</h3>
 
 
             {#if selected_stage.level_up.length}
                 {#if selected_stage.level_up.length == 2}
-                    <p>This position has a career choice for leveling up</p>
+                    <p>This position has a career choice for levelling up</p>
                     {#each selected_stage.level_up as k}
                         {@const l = career_path.stages.find( (el) => el.key == k)}
                         <label><input type="radio" bind:group={selected_levelup} value={l} /> {l.value}</label><br>     
@@ -296,7 +301,7 @@ onMount( () => {
     <!-- svelte-ignore a11y-click-events-have-key-events -->
     <div class="mask" on:click={ () => {flow_modal = false} }>
         <div class="modal" on:click|stopPropagation={ () => true }>
-            <h1 on:click={ () => {flow_modal = false} }>Leveling Flow <span>&times;</span></h1>
+            <h1 on:click={ () => {flow_modal = false} }>Levelling Flow <span>&times;</span></h1>
 
 
             <!--
@@ -473,12 +478,12 @@ onMount( () => {
         background: rgba(0,0,0,0.6);
         z-index: 1999;
         text-align: center;
-        padding-top: 20vh;
+        padding-top: 10vh;
     }
     .modal {
         width: 90%;
         max-width:640px;
-        max-height: 60vh;
+        max-height: 80vh;
         overflow: auto;
         background-color: #fff;
         position: relative;
