@@ -124,9 +124,6 @@ onMount( () => {
 <h1>Design Levelling Framework </h1>
 
 <div class="settings">
-    <!--
-    <div><Select bind:value={team} options={$teams} label={"Team"}></Select></div>
-    -->
     <div><Select bind:value={trade} options={trades} label={"Trade"}></Select></div>
     <div>
         <span class="label">Visible Columns</span>
