@@ -7,33 +7,10 @@ export const manifest = {
 		client: {"start":"_app/immutable/entry/start.59020c65.js","app":"_app/immutable/entry/app.f5308c97.js","imports":["_app/immutable/entry/start.59020c65.js","_app/immutable/chunks/index.7a29442e.js","_app/immutable/chunks/singletons.07159359.js","_app/immutable/chunks/index.c6e5d921.js","_app/immutable/entry/app.f5308c97.js","_app/immutable/chunks/index.7a29442e.js"],"stylesheets":[],"fonts":[]},
 		nodes: [
 			() => import('./nodes/0.js'),
-			() => import('./nodes/1.js'),
-			() => import('./nodes/2.js'),
-			() => import('./nodes/3.js'),
-			() => import('./nodes/4.js')
+			() => import('./nodes/1.js')
 		],
 		routes: [
-			{
-				id: "/",
-				pattern: /^\/$/,
-				params: [],
-				page: { layouts: [0,], errors: [1,], leaf: 2 },
-				endpoint: null
-			},
-			{
-				id: "/leveling",
-				pattern: /^\/leveling\/?$/,
-				params: [],
-				page: { layouts: [0,], errors: [1,], leaf: 3 },
-				endpoint: null
-			},
-			{
-				id: "/suru",
-				pattern: /^\/suru\/?$/,
-				params: [],
-				page: { layouts: [0,], errors: [1,], leaf: 4 },
-				endpoint: null
-			}
+			
 		],
 		matchers: async () => {
 			
