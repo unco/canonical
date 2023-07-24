@@ -55,7 +55,10 @@ $: {
 
 function select_stage(stage) {
     selected_levelup = false;
-    if(selected_stage == stage) {
+    if(selected_stage == stage){
+        if(window.location.hash !== '') {
+            window.location.hash = '';
+        }
         selected_stage = false;
     } else {
         selected_stage = stage;
