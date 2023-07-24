@@ -56,9 +56,6 @@ $: {
 function select_stage(stage) {
     selected_levelup = false;
     if(selected_stage == stage){
-        if(window.location.hash !== '') {
-            window.location.hash = '';
-        }
         selected_stage = false;
     } else {
         selected_stage = stage;
@@ -72,6 +69,9 @@ function select_stage(stage) {
 
 function click_stage(stage){
     if(selected_stage == stage) {
+        if(window.location.hash !== '') {
+            window.location.hash = '';
+        }
         selected_stage = false;
     } else {selected_levelup
         let new_hash = '#' + team.key + '/' + trade.key + '/' + stage.key;
