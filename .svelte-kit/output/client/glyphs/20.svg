@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>20</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="80" height="80"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-2" transform="translate(-380.000000, -376.000000)">
+            <g id="glyphs" transform="translate(280.000000, 175.000000)">
+                <g id="20" transform="translate(100.000000, 201.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Rectangle"></g>
+                    <g id="Group-7" mask="url(#mask-2)" fill="#000000">
+                        <rect id="Rectangle-Copy-44" x="0" y="21.6666667" width="15" height="15"></rect>
+                        <rect id="Rectangle-Copy-62" x="0" y="0" width="15" height="15"></rect>
+                        <rect id="Rectangle-Copy-45" x="0" y="43.3333333" width="15" height="15"></rect>
+                        <rect id="Rectangle-Copy-63" x="0" y="65" width="15" height="15"></rect>
+                    </g>
+                    <g id="Group-7-Copy" mask="url(#mask-2)" fill="#000000">
+                        <g transform="translate(21.666667, 0.000000)">
+                            <rect id="Rectangle-Copy-44" x="0" y="21.6666667" width="15" height="15"></rect>
+                            <rect id="Rectangle-Copy-62" x="0" y="0" width="15" height="15"></rect>
+                            <rect id="Rectangle-Copy-45" x="0" y="43.3333333" width="15" height="15"></rect>
+                            <rect id="Rectangle-Copy-63" x="0" y="65" width="15" height="15"></rect>
+                        </g>
+                    </g>
+                    <g id="Group-7-Copy-2" mask="url(#mask-2)" fill="#000000">
+                        <g transform="translate(43.333333, 0.000000)">
+                            <rect id="Rectangle-Copy-44" x="0" y="21.6666667" width="15" height="15"></rect>
+                            <rect id="Rectangle-Copy-62" x="0" y="0" width="15" height="15"></rect>
+                            <rect id="Rectangle-Copy-45" x="0" y="43.3333333" width="15" height="15"></rect>
+                            <rect id="Rectangle-Copy-63" x="0" y="65" width="15" height="15"></rect>
+                        </g>
+                    </g>
+                    <g id="Group-7-Copy-3" mask="url(#mask-2)" fill="#000000">
+                        <g transform="translate(65.000000, 0.000000)">
+                            <rect id="Rectangle-Copy-44" x="0" y="21.6666667" width="15" height="15"></rect>
+                            <rect id="Rectangle-Copy-62" x="0" y="0" width="15" height="15"></rect>
+                            <rect id="Rectangle-Copy-45" x="0" y="43.3333333" width="15" height="15"></rect>
+                            <rect id="Rectangle-Copy-63" x="0" y="65" width="15" height="15"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

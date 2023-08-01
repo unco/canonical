@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>11</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="80" height="80"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-2" transform="translate(-380.000000, -276.000000)">
+            <g id="glyphs" transform="translate(280.000000, 175.000000)">
+                <g id="11" transform="translate(100.000000, 101.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Rectangle"></g>
+                    <polygon id="Path" fill="#000000" mask="url(#mask-2)" transform="translate(40.000000, 39.999948) rotate(-90.000000) translate(-40.000000, -39.999948) " points="80.0000521 20.5063321 79.9999479 23.2072279 40.0129909 59.4936679 39.9999479 59.4792279 39.9871134 59.4936679 -5.21420761e-05 23.2062279 5.21420743e-05 20.5063321 2.97694786 20.5062279 39.9999479 54.1032279 77.0239479 20.5062279"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

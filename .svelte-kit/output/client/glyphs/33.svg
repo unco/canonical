@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>33</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="80" height="80"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-2" transform="translate(-780.000000, -476.000000)">
+            <g id="glyphs" transform="translate(280.000000, 175.000000)">
+                <g id="33" transform="translate(500.000000, 301.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Rectangle"></g>
+                    <g id="Group-4" mask="url(#mask-2)" fill="#000000">
+                        <g transform="translate(-28.000000, 2.000000)">
+                            <path d="M64,0 L64,46.0664062 C64,63.7395182 49.673112,78.0664062 32,78.0664062 C14.326888,78.0664062 0,63.7395182 0,46.0664062 L0,0 L20,0 L20,46.0664062 C20,52.6938232 25.372583,58.0664062 32,58.0664062 C38.4767939,58.0664062 43.7551435,52.9352565 43.9917231,46.5162828 L44,46.0664062 L44,0 L64,0 Z" id="Combined-Shape-Copy-3" fill-rule="nonzero" transform="translate(32.000000, 39.033203) scale(1, -1) translate(-32.000000, -39.033203) "></path>
+                            <circle id="Oval-Copy-2" fill-rule="evenodd" cx="98" cy="68.0664062" r="10"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

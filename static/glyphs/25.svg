@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>25</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="80" height="80"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-2" transform="translate(-880.000000, -375.000000)">
+            <g id="glyphs" transform="translate(280.000000, 175.000000)">
+                <g id="25" transform="translate(600.000000, 200.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Rectangle"></g>
+                    <g id="Group-3" mask="url(#mask-2)" fill="#000000">
+                        <g id="Group-2">
+                            <path d="M67.2,0 L67.2,12.8 L80,12.8 L80,19.2 L67.2,19.2 L67.2,32 L60.8,32 L60.8,19.2 L48,19.2 L48,12.8 L60.8,12.8 L60.8,0 L67.2,0 Z" id="Combined-Shape"></path>
+                            <path d="M19.2,0 L19.2,12.8 L32,12.8 L32,19.2 L19.2,19.2 L19.2,32 L12.8,32 L12.8,19.2 L0,19.2 L0,12.8 L12.8,12.8 L12.8,0 L19.2,0 Z" id="Combined-Shape-Copy"></path>
+                        </g>
+                        <g id="Group-2-Copy-2" transform="translate(0.000000, 48.000000)">
+                            <path d="M67.2,0 L67.2,12.8 L80,12.8 L80,19.2 L67.2,19.2 L67.2,32 L60.8,32 L60.8,19.2 L48,19.2 L48,12.8 L60.8,12.8 L60.8,0 L67.2,0 Z" id="Combined-Shape"></path>
+                            <path d="M19.2,0 L19.2,12.8 L32,12.8 L32,19.2 L19.2,19.2 L19.2,32 L12.8,32 L12.8,19.2 L0,19.2 L0,12.8 L12.8,12.8 L12.8,0 L19.2,0 Z" id="Combined-Shape-Copy"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

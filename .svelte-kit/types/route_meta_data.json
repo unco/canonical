@@ -6,7 +6,10 @@
 	"/leveling": [
 		"src/routes/+layout.js"
 	],
-	"/suru": [
+	"/toys": [
+		"src/routes/+layout.js"
+	],
+	"/toys/[toy]": [
 		"src/routes/+layout.js"
 	]
 }

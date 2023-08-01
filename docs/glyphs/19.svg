@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>19</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="80" height="80"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-2" transform="translate(-280.000000, -376.000000)">
+            <g id="glyphs" transform="translate(280.000000, 175.000000)">
+                <g id="19" transform="translate(0.000000, 201.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Rectangle"></g>
+                    <g id="Group-9" mask="url(#mask-2)" fill="#000000">
+                        <g transform="translate(7.715672, 11.715672)">
+                            <path d="M9.0921638,4.14212395 L24.1421638,19.191124 L24.1421638,24.1422037 L4.1421638,24.1422037 L4.1421638,4.14220365 L9.0921638,4.14212395 Z" id="Combined-Shape" transform="translate(14.142164, 14.142164) rotate(-135.000000) translate(-14.142164, -14.142164) "></path>
+                            <path d="M37.3764914,4.14212395 L52.4264914,19.191124 L52.4264914,24.1422037 L32.4264914,24.1422037 L32.4264914,4.14220365 L37.3764914,4.14212395 Z" id="Combined-Shape-Copy-5" transform="translate(42.426491, 14.142164) rotate(-135.000000) translate(-42.426491, -14.142164) "></path>
+                            <path d="M9.0921638,32.4264516 L24.1421638,47.4754516 L24.1421638,52.4265313 L4.1421638,52.4265313 L4.1421638,32.4265313 L9.0921638,32.4264516 Z" id="Combined-Shape-Copy-7" transform="translate(14.142164, 42.426491) rotate(-135.000000) translate(-14.142164, -42.426491) "></path>
+                            <path d="M37.3764914,32.4264516 L52.4264914,47.4754516 L52.4264914,52.4265313 L32.4264914,52.4265313 L32.4264914,32.4265313 L37.3764914,32.4264516 Z" id="Combined-Shape-Copy-6" transform="translate(42.426491, 42.426491) rotate(-135.000000) translate(-42.426491, -42.426491) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
