@@ -91,7 +91,7 @@
       <div class='row'>
         {#each row as col, j}
           <div class='glyph' class:hover_target class:empty={col == 'X'} on:mouseleave={ ()=> randomise_cell(i,j,0)} style="width:{grid_size}px;height:{grid_size}px;">
-            <div style="background-image:url(/glyphs/{col}.svg);"></div>
+            <div style="background-image:url(https://unco.github.io/docs/glyphs/{col}.svg);"></div>
           </div>
         {/each}
       </div>
