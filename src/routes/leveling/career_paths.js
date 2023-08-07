@@ -1076,8 +1076,8 @@ export const trade_cat_levels = writable({
             "l2": "Work is suitable for Canonical teams and frequently achieves a high level of design. Consistency of quality is somewhat resilient to resource constraints",
             "l3": "Work shows consistently great quality and appropriateness regardless of resource constraints. Has impact on the work of other team members.",
             "l4": "Work shows rigor, longevity and is seen as a reference by the team across all aspects of the Visual Design practise",
-            "l5": "Work is first-class and representative of Canonical's aspirations in User Research. It deeply influences how our team views quality.",
-            "l6": "Overseas work by which Canonical User Research Canonical design and Canonical as a whole is viewed. Primarily concerned with the team development in this area.",
+            "l5": "Work is first-class and representative of Canonical's aspirations in Visual Design. It deeply influences how our team views quality.",
+            "l6": "Overseas work by which Canonical Visual Design and Canonical as a whole is viewed. Primarily concerned with the team development in this area.",
         },
         "c2_1": { 
             "l1": "Communicates solidly in one medium and is learning to branch into other communication skills like visual, written, verbal, presentation, active listening, feedback, nonverbal or documentation.",
@@ -1089,15 +1089,15 @@ export const trade_cat_levels = writable({
         },
         "c2_2": { 
             "l1": "Aware of differing product stakeholder needs, caters to their expectations.",
-            "l2": "Able to adapt to multiple, often contradictory, product stakeholder needs. Caters to their expectations and communicates basic User Research needs and benefits.",
-            "l3": "Skillfully manages stakeholder requirements and forms strong simbiotic relationships. Is able to promote User Research needs and benefits and respond with agility to risk, change and uncertainty.",
-            "l4": "Skillfully manages product and upper management stakeholder requirements and forms strong cross-team simbiotic relationships. Takes opportunities to promote User Research with key stakeholders. Is a point of reference for User Research and pre-empts risk, change and uncertainty.",
-            "l5": "Controls product and upper management stakeholder requirements and forms strong cross-team simbiotic relationships. Consistently promotes User Research with key stakeholders. Is a point of reference for User Research and manages risk, change and uncertainty.",
-            "l6": "Responsible for upper management stakeholder requirements and buy in. Builds strong cross-team simbiotic relationships. Responsible for the position of User Research with key stakeholders. Is the point of reference for User Research and manages risk, change and uncertainty for the team."
+            "l2": "Able to adapt to multiple, often contradictory, product stakeholder needs. Caters to their expectations and communicates basic Visual Design needs and benefits.",
+            "l3": "Skillfully manages stakeholder requirements and forms strong simbiotic relationships. Is able to promote Visual Design needs and benefits and respond with agility to risk, change and uncertainty.",
+            "l4": "Skillfully manages product and upper management stakeholder requirements and forms strong cross-team simbiotic relationships. Takes opportunities to promote Visual Design with key stakeholders. Is a point of reference for Visual Design and pre-empts risk, change and uncertainty.",
+            "l5": "Controls product and upper management stakeholder requirements and forms strong cross-team simbiotic relationships. Consistently promotes Visual Design with key stakeholders. Is a point of reference for Visual Design and manages risk, change and uncertainty.",
+            "l6": "Responsible for upper management stakeholder requirements and buy in. Builds strong cross-team simbiotic relationships. Responsible for the position of Visual Design with key stakeholders. Is the point of reference for Visual Design and manages risk, change and uncertainty for the team."
         },
         "c2_3": { 
-            "l1": "Understands the importance of weighing cost and value in decision making. Understands that their role is larger than individual contribution. Is beginning to mentor in any of their competencies (Because the team is small this can be with non User Research members). Is visible in forums outside BAU such as lightening talks.",
-            "l2": "Can be tasked with leadership requirements. Spends a notable amount of time on leadership activities not part of individual contribution. Mentors with frequency in all of their competencies (Because the team is small this can be with non User Research members).",
+            "l1": "Understands the importance of weighing cost and value in decision making. Understands that their role is larger than individual contribution. Is beginning to mentor in any of their competencies (Because the team is small this can be with non Visual Design members). Is visible in forums outside BAU such as lightening talks.",
+            "l2": "Can be tasked with leadership requirements. Spends a notable amount of time on leadership activities not part of individual contribution. Mentors with frequency in all of their competencies (Because the team is small this can be with non Visual Design members).",
             "l3": "Anticipates leadership requirements. Can make trade-offs, focusing on mission-critical activities and communicates those effectively. ",
             "l4": "Owns leadership in their respective area. Is excellent making trade-offs and managing the repercussions and risk.",
             "l5": "Owns the outcome of effective leadership in their area. Has mastered making trade-offs and managing the repercussions and risk.",
@@ -1114,26 +1114,26 @@ export const trade_cat_levels = writable({
         "c3_1": { 
             "l1": "Aware of short and long-term product and business objectives.",
             "l2": "Includes Canonical's Business Objectives into team practice. Their own work supports and highlights OKR acheivement.",
-            "l3": "Is proficient at ensuring Canonical's business objective are including into team practice. Understands how User Research work can influence Objectives and Key Results",
-            "l4": "Relates to Canonicals Key Results in a two-way relationship with User Research and mentors others in incorporating Business Objectives in their practice.",
-            "l5": "Informs Canonicals Objectives and Key Results and can strategise in how those objectives can improve User Research",
+            "l3": "Is proficient at ensuring Canonical's business objective are including into team practice. Understands how Visual Design work can influence Objectives and Key Results",
+            "l4": "Relates to Canonicals Key Results in a two-way relationship with Visual Design and mentors others in incorporating Business Objectives in their practice.",
+            "l5": "Informs Canonicals Objectives and Key Results and can strategise in how those objectives can improve Visual Design",
             "l6": "Plays an important role in determing Canonical OKRs and hence the future of Canonical."
         },
         "c3_2": { 
             "l1": "Aware that an hollistic approach to problem solving is different to design thinking and looks to root causes across the whole practice.",
-            "l2": "Is competent looking at the complex system of User Research and treating it as a single problem. Works towards solving root causes, whether that be in tooling, processes, outcomes, leadership, management, OKRs or long-term vision.",
-            "l3": "Is proficient dealing with the complex system of User Research and treating it as a single problem. Can solve root cause problems, whether that be in tooling, processes, outcomes, leadership, management, OKRs or long-term vision.",
+            "l2": "Is competent looking at the complex system of Visual Design and treating it as a single problem. Works towards solving root causes, whether that be in tooling, processes, outcomes, leadership, management, OKRs or long-term vision.",
+            "l3": "Is proficient dealing with the complex system of Visual Design and treating it as a single problem. Can solve root cause problems, whether that be in tooling, processes, outcomes, leadership, management, OKRs or long-term vision.",
             "l4": "Can mentor and lead in the developement of systems thinking. Regularly solves problems from a system level perspective and measures their own impact on a domain level.",
             "l5": "Mentors and leads in the development of systems thinking. Continually solves problems from a system level perspective and measures their own impact on a department level.",
             "l6": "Responsible for the system of all the elements that make up the design process and the development of this perspective amongst all team members."
         },
         "c3_3": { 
-            "l1": "Is able to distinguish business as usual mission actions from activities that support the long term vision and strength of Canonical User Research",
+            "l1": "Is able to distinguish business as usual mission actions from activities that support the long term vision and strength of Canonical Visual Design",
             "l2": "Is able to accurately reflect the long-term vision and inform their own work where appropriate.",
             "l3": "Is able to consistently and accurately reflect the long-term vision and inform their own work where appropriate. Advocates for this vision with peers and stakeholders.",
             "l4": "Contributes to and advocates for the long-term vision. Balances vision and mission. Outcomes are measured across a few cycles.",
-            "l5": "Supports the person responsible for long-term vision. Outcomes are measured across multiple cycles. Communicates the aspirational future-state for what User Research means within their domain or department.",
-            "l6": "Responsible for the long-term design vision at Canonical. Outcomes are measured across multiple cycles. Sets and communicates the aspirational future-state for what User Research means at Canonical."
+            "l5": "Supports the person responsible for long-term vision. Outcomes are measured across multiple cycles. Communicates the aspirational future-state for what Visual Design means within their domain or department.",
+            "l6": "Responsible for the long-term design vision at Canonical. Outcomes are measured across multiple cycles. Sets and communicates the aspirational future-state for what Visual Design means at Canonical."
         }
     }
 });
